@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./fonts.scss";
+
+.MuiInputBase-root,
+.MuiFormControl-root {
+  width: 100% !important;
+  flex: 1 1 auto !important;
+}
+
+@layer components {
+  .MuiInputBase-root {
+    @apply w-full;
+  }
+}
